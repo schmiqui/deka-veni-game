@@ -1,0 +1,13 @@
+{
+  "name": "deka-dobry-pastier",
+  "version": "1.0.0",
+  "description": "Dobrý pastier, 2D hra DeKa tímu na Veni Sancte s trvalým rebríčkom",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "kiosk": "node server.js --kiosk"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

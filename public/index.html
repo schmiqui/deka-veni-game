@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dobrý pastier</title>
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      background: #0E1B2A;
+      overflow: hidden;
+      cursor: none;
+    }
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    canvas {
+      display: block;
+    }
+    #nameInput {
+      position: fixed;
+      left: -2000px;
+      top: 0;
+      opacity: 0;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="game"></canvas>
+  <input id="nameInput" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+  <script src="config.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/sound.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>
